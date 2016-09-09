@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSourceTest</DataSourceReference>
+      <CommandText>SELECT   Goods.GoodsName, Goods.GoodsCode, Goods.Price, Goods.TotalOrderCount, Goods.TotalOrderSum, 
+                GoodsBatches.ContactUser, GoodsBatches.PickUpAddress, GoodsBatches.ContactTel, 
+                GoodsBatches.GoodsBatchCode
+FROM      Goods INNER JOIN
+                GoodsBatches ON Goods.GoodsID = GoodsBatches.GoodsId</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="GoodsName">
+        <DataField>GoodsName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GoodsCode">
+        <DataField>GoodsCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Price">
+        <DataField>Price</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="TotalOrderCount">
+        <DataField>TotalOrderCount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="TotalOrderSum">
+        <DataField>TotalOrderSum</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ContactUser">
+        <DataField>ContactUser</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PickUpAddress">
+        <DataField>PickUpAddress</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ContactTel">
+        <DataField>ContactTel</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GoodsBatchCode">
+        <DataField>GoodsBatchCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

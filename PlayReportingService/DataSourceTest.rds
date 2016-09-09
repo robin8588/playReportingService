@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSourceTest">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=115.29.15.54;Initial Catalog=GGZY_V33_Temp</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>3a0f370b-03c5-4311-9a01-8595054e5b10</DataSourceID>
+</RptDataSource>
