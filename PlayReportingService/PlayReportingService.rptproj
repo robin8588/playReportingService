@@ -41,7 +41,9 @@
         <TargetServerURL>http://guoguo6500/ReportServer_SQLSERVER2014</TargetServerURL>
         <TargetFolder>PlayReportingService</TargetFolder>
         <TargetDataSourceFolder>数据源</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
         <TargetDatasetFolder>数据集</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
         <TargetReportPartFolder>报表部件</TargetReportPartFolder>
       </Options>
     </Configuration>
