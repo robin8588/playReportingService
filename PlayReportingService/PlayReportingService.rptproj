@@ -6,17 +6,29 @@
       <Name>DataSourceTest.rds</Name>
       <FullPath>DataSourceTest.rds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DataSourceReal.rds</Name>
+      <FullPath>DataSourceReal.rds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSets>
     <ProjectItem>
       <Name>DataSetTest.rsd</Name>
       <FullPath>DataSetTest.rsd</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DataSetTongji.rsd</Name>
+      <FullPath>DataSetTongji.rsd</FullPath>
+    </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
       <Name>ReportTest.rdl</Name>
       <FullPath>ReportTest.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ReportTongji.rdl</Name>
+      <FullPath>ReportTongji.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
